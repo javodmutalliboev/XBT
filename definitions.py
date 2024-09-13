@@ -8,6 +8,15 @@ class Xodim(Shaxs):
     id = -1
     lavozimi = ""
 
+    def __str__():
+        pass
+
+    def terminalga_chiqarish2(xodim):
+        print(f"Xodim: {xodim.ismi} {xodim.familiyasi}")
+
+    def terminalga_chiqarish():
+        print("Class methodi")
+
     @staticmethod
     def royxat():
         try:
@@ -17,7 +26,7 @@ class Xodim(Shaxs):
         except Exception as istisno:
             print(istisno)
 
-    @staticmethod
+    @staticmethod  # decorator
     def qoshish():
         try:
             ism = input("Yangi xodim ismi: ")

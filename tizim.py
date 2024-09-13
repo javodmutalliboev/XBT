@@ -11,6 +11,11 @@ if __name__ == "__main__":
 
         tanlov = int(input("Tanlovingizni kiriting: "))
 
+        Xodim.terminalga_chiqarish()
+        # Xodim.terminalga_chiqarish2()
+        xodim = Xodim("John", "Doe")
+        xodim.terminalga_chiqarish2()
+
         match tanlov:
             case 0:
                 tanlov = 0
